@@ -7,33 +7,37 @@
     <title>AI Poem</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to AI French Poem Generator</h1>
-    </header>
-    <form action="">
-      <input
-        type="text"
-        placeholder="Enter topic of French Poem.."
-        autofocus
-        required
-        autocomplete="off"
-      />
-      <input type="submit" />
-    </form>
-    <div>
-      poem here <br />
-      poem here
+    <div class="container">
+      <header>
+        <h1>Welcome to AI French Poem Generator</h1>
+      </header>
+      <form action="">
+        <input
+          type="text"
+          placeholder="Enter topic of French Poem.."
+          autofocus
+          required
+          autocomplete="off"
+          class="instruction"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="poem">
+        poem here <br />
+        poem here
+      </div>
+
+      <footer>
+        Coded by
+        <a href="https://github.com/dashboard" target="_blank">Lila Oliver</a>,
+        open-sourced on
+        <a href="https://github.com/loliver42/AI-Poem-Project" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="ai-poem-project.netlify.app" target="_blank">Netlify</a>
+      </footer>
     </div>
-    <footer>
-      Coded by
-      <a href="https://github.com/dashboard" target="_blank">Lila Oliver</a>,
-      open-sourced on
-      <a href="https://github.com/loliver42/AI-Poem-Project" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="ai-poem-project.netlify.app" target="_blank">Netlify</a>
-    </footer>
   </body>
   <script src="src/script.js"></script>
 </html>
